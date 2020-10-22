@@ -34,7 +34,7 @@ const capturePokemon = async (url) => {
 
   const descriptionPoke = await descriptionPokemon(urlDescription)
   
-  const redefinePokemon ={name, id, front_default, weight, height, typepokemon, descriptionPoke};
+  const redefinePokemon ={ id, name, weight, height, typepokemon, front_default, descriptionPoke};
 
   return redefinePokemon;
 }
