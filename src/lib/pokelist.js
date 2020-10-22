@@ -13,9 +13,9 @@ const descriptionPokemon = async (url) => {
   const description = await fetch(url)
     .then(result => result.json())
     .then(resultJson => resultJson.flavor_text_entries[8].flavor_text)
-    .then(resultRawText => resultRawText.split('\n').join(' '))
+    .then(resultRawText => resultRawText.split('\n').join(' '));
 
-  return description
+  return description;
 }
 
 const capturePokemon = async (url) => {
@@ -32,7 +32,7 @@ const capturePokemon = async (url) => {
     species : { url : urlDescription }
   } = pokemon;
 
-  const descriptionPoke = await descriptionPokemon(urlDescription)
+  const descriptionPoke = await descriptionPokemon(urlDescription);
   
   const redefinePokemon ={ id, name, weight, height, typepokemon, front_default, descriptionPoke};
 
@@ -55,4 +55,4 @@ const createListPokemon = async (range) => {
   return pokemons;
 }
 
-export default createListPokemon
+export default createListPokemon;
