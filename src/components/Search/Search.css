@@ -1,0 +1,8 @@
+.container-search {
+  width: 200px;
+  height: 50px;
+
+  align-self: flex-end;
+
+  background-color: blue;
+}

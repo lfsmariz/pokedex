@@ -1,0 +1,27 @@
+.container {
+  background-color: #de452f;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main-screen {
+  display: flex;
+  justify-content: space-between;
+  
+  width: 800px;  
+  border: 1px solid white;
+}
+
+.search-list {
+  display: flex;
+}
