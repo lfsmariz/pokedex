@@ -1,0 +1,16 @@
+.bot-bar {
+  background-color: #a9051b;
+  height: 100px;
+  width: 100%;
+}
+
+.pokedex-miniature {
+  bottom: 50px;
+  position: absolute;
+  right: 60px;
+  width: 150px;
+}
+
+.cutout-footer {
+  width: 200px;
+}

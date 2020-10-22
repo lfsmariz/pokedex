@@ -1,0 +1,16 @@
+.top-bar {
+  background-color: #a9051b;
+  height: 100px;
+  width: 100%;
+}
+
+.blue-led {
+  left: 60px;
+  position: absolute;
+  top: 20px;
+  width: 90px;
+}
+
+.cutout-header {
+  width: 200px;
+}

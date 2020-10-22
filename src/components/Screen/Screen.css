@@ -1,0 +1,18 @@
+.container-screen {
+  border: 1px solid yellow;
+  height: 300px;
+  position: relative;
+  width: 250px;
+}
+
+.sample {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-25%, -25%);
+  width: 350px;
+}
+
+.screen {
+  width: 450px;
+}
