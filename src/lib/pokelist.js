@@ -39,6 +39,11 @@ const capturePokemon = async (url) => {
   return redefinePokemon;
 }
 
+/**
+ * create a list of pokemon
+ * @param {*} range all pokemons from id 1 to the number defined in the range variable
+ */
+
 const createListPokemon = async (range) => {
   const list = await pokeList(range);
 
