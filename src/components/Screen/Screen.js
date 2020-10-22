@@ -5,7 +5,6 @@ import sample from './images/sample.svg';
 import screen from './images/screen.svg';
 
 class Screen extends Component {
-
   render() {
     return (
       <div className="container-screen">

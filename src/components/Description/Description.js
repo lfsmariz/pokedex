@@ -8,7 +8,6 @@ class Description extends Component {
       <div className="container-description">
         Description
       </div>
-
     );
   };
 };

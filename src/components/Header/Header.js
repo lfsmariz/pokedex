@@ -5,7 +5,6 @@ import topBar from './images/topBar.svg';
 import biggestBlueLed from './images/biggestBlueLed.svg';
 
 class Header extends Component {
-
   render() {
     return (
       <div className="header">

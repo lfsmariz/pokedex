@@ -10,7 +10,6 @@ import PokeList from '../PokeList/PokeList';
 import Footer from '../Footer/Footer';
 
 class Container extends Component {
-
   render() {
     return (
       <div className="container">
