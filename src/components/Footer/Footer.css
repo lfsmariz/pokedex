@@ -1,16 +1,20 @@
+.footer {
+  height: 159px;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end
+}
+
 .bot-bar {
   background-color: #a9051b;
   height: 100px;
   width: 100%;
+  margin: 0;
 }
 
 .pokedex-miniature {
   bottom: 50px;
   position: absolute;
-  right: 60px;
-  width: 150px;
-}
-
-.cutout-footer {
-  width: 200px;
+  right: 150px;
+  width: 210px
 }

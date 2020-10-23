@@ -5,12 +5,15 @@
 }
 
 .blue-led {
-  left: 60px;
+  left: 100px;
   position: absolute;
-  top: 20px;
+  top: 35px;
   width: 90px;
 }
 
-.cutout-header {
-  width: 200px;
+.header {
+  height: 159px;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start
 }
