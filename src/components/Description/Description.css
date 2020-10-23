@@ -1,3 +1,5 @@
+
+
 .container-description {
   display: flex;
   background-color: #A9051B;
@@ -6,4 +8,7 @@
   flex-direction: column;
 }
 
-
+.description {
+  background-color: #242424;
+  ;
+}
