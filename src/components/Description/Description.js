@@ -23,12 +23,12 @@ class Description extends Component {
             <p className="characteristics-weight">{weight}</p>
             <p className="characteristics-height">{height}</p>
             {typepokemon.map((types) => (
-              <p key={types}>{types.type.name}</p>
+              <p key={types.type.name}>{types.type.name}</p>
             ))}
           </div>
           <div>
             {typepokemon.map((types) => (
-              <img src={`../../images/${types.type.name}.png`} alt={types.type.name}/>))}
+              <img key={types.type.name} src={`../../images/${types.type.name}.png`} alt={types.type.name} />))}
           </div>
         </div>
       </div>
