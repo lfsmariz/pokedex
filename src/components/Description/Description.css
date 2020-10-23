@@ -1,6 +1,5 @@
-
-
 .container-description {
+  font-family: 'Press Start 2P';
   display: flex;
   background-color: #A9051B;
   height: 100%;
@@ -8,7 +7,23 @@
   flex-direction: column;
 }
 
-.description {
+.name-id {
+  align-self: center;
   background-color: #242424;
-  ;
+  color:#D7C94B;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 152%;
+  text-align: center;
+  width: 95%;
+}
+
+.description {
+  align-self: center;
+  background-color: #242424;
+  border-radius: 10px;
+  text-align: left;
+  width: 95%;
 }
