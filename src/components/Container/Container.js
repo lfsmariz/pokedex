@@ -30,7 +30,7 @@ class Container extends Component {
   };
 
   selectCurrentPokemon(id) {
-    const found = this.pokemonList.find(pokemon => pokemon.id === id);
+    const found = this.state.pokemonList.find(pokemon => pokemon.id === id);
 
     this.setState({ currentPokemon: found });
   };
@@ -44,7 +44,7 @@ class Container extends Component {
 
           <div className="main-screen">
             <Screen />
-            <Description />
+            <Description pokemon={this.state.currentPokemon}/>
           </div>
 
           <div className="search-list">
