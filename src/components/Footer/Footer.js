@@ -9,7 +9,7 @@ class Footer extends Component {
     return (
       <div className="footer">
 
-        <img className="cutout" src={botBar} alt="footer" />
+        <img className="cutout-footer" src={botBar} alt="footer" />
 
         <div className="bot-bar">
           <img className="pokedex-miniature" src={pokedexMiniature} alt="blue led" />
