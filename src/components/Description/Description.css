@@ -1,5 +1,9 @@
 .container-description {
-  background-color: green;
-  height: 400px;
-  width: 300px;
+  display: flex;
+  background-color: #A9051B;
+  height: 100%;
+  width: 43%;
+  flex-direction: column;
 }
+
+
