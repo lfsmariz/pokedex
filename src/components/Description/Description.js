@@ -22,8 +22,8 @@ class Description extends Component {
           <div>
             <p className="characteristics-weight">{weight}</p>
             <p className="characteristics-height">{height}</p>
-            {typepokemon.map(type=> (
-              <p key={type}>element</p>
+            {typepokemon.map(types=> (
+              <p key={types}>{types.type.name}</p>
             ))}
           </div>
           <div>
