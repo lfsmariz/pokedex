@@ -22,6 +22,7 @@ class Description extends Component {
 
         <div className="characteristics">
           <div className="charactteristics-list">
+
             <div className="pokeInfo">
               <p className="characteristics-weight">weight. {weight}lbs</p>
               <p className="characteristics-height">height. {height}''</p>
@@ -38,6 +39,7 @@ class Description extends Component {
                 />
               ))} */}
             </div>
+
           </div>
         </div>
       </div>
