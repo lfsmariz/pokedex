@@ -14,13 +14,13 @@ class PokeList extends Component {
   };
 
   render() {
-    const { pokemonList } = this.props;
+    const { filteredList } = this.props;
 
     return (
       <div className="container-pokelist">
         <ol>
           {
-            pokemonList.map(({ id, name }) => (
+            filteredList.map(({ id, name }) => (
               <li key={id} onClick={() => { this.handleSelectedPokemon(id) }}>
                 Nº{String(id).padStart(3, '0')} - {name}
               </li>
