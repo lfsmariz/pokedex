@@ -15,7 +15,7 @@ class Description extends Component {
     return (
       <div className="container-description">
         <h2 className="name-id">
-          {String(id).padStart(3, 0)} - {name};
+          {String(id).padStart(3, 0)} - {name}
         </h2>
         <p className="description">{descriptionPoke}</p>
         <div className="characteristics">
@@ -28,7 +28,7 @@ class Description extends Component {
           </div>
           <div>
             {typepokemon.map((types) => (
-              <img src={`../../images/${types.type.name}.png`} alt={types.type.name}/>)
+              <img src={`../../images/${types.type.name}.png`} alt={types.type.name}/>))}
           </div>
         </div>
       </div>

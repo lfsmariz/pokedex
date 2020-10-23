@@ -43,7 +43,7 @@ class Container extends Component {
         <div className="main">
 
           <div className="main-screen">
-            <Screen />
+            <Screen pokemonList={this.state.currentPokemon}/>
             <Description pokemon={this.state.currentPokemon}/>
           </div>
 
