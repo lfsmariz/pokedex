@@ -14,21 +14,32 @@ class Description extends Component {
     } = this.props.pokemon;
     return (
       <div className="container-description">
-        <h2 className="name-id">
-          {String(id).padStart(3, 0)} - {name}
-        </h2>
-        <p className="description">{descriptionPoke}</p>
+        <div className="name-id">
+          <h2>{String(id).padStart(3, 0)} - {name}</h2>
+        </div>
+
+        <div className="description"><p>{descriptionPoke}</p></div>
+
         <div className="characteristics">
           <div className="charactteristics-list">
-            <p className="characteristics-weight">{weight}</p>
-            <p className="characteristics-height">{height}</p>
-            {typepokemon.map((types) => (
-              <p key={types.type.name}>{types.type.name}</p>
-            ))}
-          </div>
-          <div>
-            {typepokemon.map((types) => (
-              <img key={types.type.name} src={`../../images/${types.type.name}.png`} alt={types.type.name} />))}
+
+            <div className="pokeInfo">
+              <p className="characteristics-weight">weight. {weight}lbs</p>
+              <p className="characteristics-height">height. {height}''</p>
+              {typepokemon.map((types) => (
+                <p key={types}>{types.type.name}</p>
+              ))}
+            </div>
+
+            <div className="typeIcon">
+              {/* {typepokemon.map((types) => (
+                <img
+                  src={`../../images/${types.type.name}.png`}
+                  alt={types.type.name}
+                />
+              ))} */}
+            </div>
+
           </div>
         </div>
       </div>

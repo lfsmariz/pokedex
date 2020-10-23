@@ -13,7 +13,6 @@
 }
 
 .main-screen {
-  border: 1px solid white;
   display: flex;
   justify-content: space-between;
   width: 800px;

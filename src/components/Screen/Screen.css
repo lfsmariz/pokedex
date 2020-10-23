@@ -1,18 +1,9 @@
-.container-screen {
-  border: 1px solid yellow;
-  height: 300px;
-  position: relative;
-  width: 250px;
+.gameboy-screen {
+  background: url("./images/canvas.svg") no-repeat;
+  background-size: contain;
 }
 
 .sample {
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-25%, -25%);
-  width: 350px;
-}
-
-.screen {
-  width: 450px;
+  width: 300px;
+  margin: 100px;
 }
