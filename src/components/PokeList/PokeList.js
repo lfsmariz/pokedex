@@ -1,28 +1,29 @@
 import React, { Component } from 'react';
-import createListPokemon from '../../lib/pokelist';
 
 import './PokeList.css';
 
 class PokeList extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
-    this.state = {
-      pokemonList: []
-    };
+    this.handleSelectedPokemon = this.handleSelectedPokemon.bind(this);
   };
 
-  componentDidMount() {
-    createListPokemon(250).then(data => this.setState({ pokemonList: data }));
+  handleSelectedPokemon(id) {
+    this.props.currentPokemon(id);
   };
 
   render() {
+    const { pokemonList } = this.props;
+
     return (
       <div className="container-pokelist">
         <ol>
           {
-            this.state.pokemonList.map(pokemon => (
-              <li key={pokemon.id}>Nº{String(pokemon.id).padStart(3, '0')} - {pokemon.name}</li>
+            pokemonList.map(({ id, name }) => (
+              <li key={id} onClick={() => { this.handleSelectedPokemon(id) }}>
+                Nº{String(id).padStart(3, '0')} - {name}
+              </li>
             ))
           }
         </ol>
