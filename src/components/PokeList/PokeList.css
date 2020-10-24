@@ -1,9 +1,9 @@
 .container-pokelist {
   background-color: #a9051b;
   border-radius: 5px;
-  height: 50vh;
+  height: 420px;
   overflow-y: scroll;
-  width: 20vw;
+  width: 400px;
 }
 
 ol {
@@ -17,7 +17,7 @@ li {
   border-radius: 5px;
   color: #d7c94b;
   font-family: "Press Start 2P";
-  font-size: 16px;
+  font-size: 12px;
   height: 25px;
   line-height: 25px;
   margin: 10px;

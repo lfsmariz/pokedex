@@ -1,9 +1,12 @@
 .gameboy-screen {
-  background: url("./images/canvas.svg") no-repeat;
+  background: #A90A1B url("./images/canvas.svg") no-repeat;
   background-size: contain;
+  border: 10px solid #A90A1B;
+  border-radius: 20px 0 20px 20px;
+  height: 400px;
 }
 
 .sample {
-  width: 300px;
-  margin: 100px;
+  width: 250px;
+  margin: 75px;
 }
