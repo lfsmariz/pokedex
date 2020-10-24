@@ -26,9 +26,11 @@ class Description extends Component {
             <div className="pokeInfo">
               <p className="characteristics-weight">weight. {weight}lbs</p>
               <p className="characteristics-height">height. {height}''</p>
-              {typepokemon.map((types) => (
+              <p>              {typepokemon.map((types) => (types.type.name+' '))}</p>
+
+              {/* {typepokemon.map((types) => (
                 <p key={types}>{types.type.name}</p>
-              ))}
+              ))} */}
             </div>
 
             <div className="typeIcon">

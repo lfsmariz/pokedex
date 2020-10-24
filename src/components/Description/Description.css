@@ -1,50 +1,48 @@
 .container-description {
-  margin-top: 30px;
-  font-family: 'Press Start 2P';
+  font-family: "Press Start 2P";
   display: flex;
-  height: 80%;
-  background-color: #A9051B;
+  height: 320px;
+  background-color: #a9051b;
   flex-direction: column;
-  padding: 2% 10px;
-  align-items: center;
-  justify-content: space-around;
   border-radius: 0 20px 20px 0;
+  padding-top: 10px;
+  width: 350px;
 }
 
-.name-id{
-  width: 90%;
+.name-id {
+  width: 320px;
   padding: 10px;
   background-color: #242424;
   border-radius: 10px;
 }
 
-.name-id h2{
-  color:#D7C94B;
+.name-id h2 {
+  color: #d7c94b;
   font-size: 16px;
   text-align: center;
   margin: 0;
 }
 
-.description{
-  margin-top: 5%;
-  width: 90%;
+.description {
+  margin-top: 10px;
+  width: 320px;
   padding: 10px;
   background-color: #242424;
   border-radius: 10px;
 }
 
 .description p {
-  height: 200px;
+  height: 134px;
   margin: 0;
-  line-height: 1.5;
-  color:#D7C94B;
+  line-height: 1.7;
+  color: #d7c94b;
   font-size: 10px;
   margin: 0;
 }
 
 .characteristics {
-  margin-top: 5%;
-  width: 95%;
+  margin-top: 10px;
+  width: 97%;
   border-radius: 10px;
 }
 
@@ -56,12 +54,12 @@
 .pokeInfo {
   margin: 0;
   padding: 10px;
-  width: 130px;
+  width: 210px;
   height: 80px;
-  color:#D7C94B;
+  color: #d7c94b;
   background-color: #242424;
   border-radius: 10px;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .pokeInfo p {
@@ -71,8 +69,8 @@
 .typeIcon {
   width: 100px;
   height: 100px;
-  background-color: #50AF5E;
+  background-color: #50af5e;
   box-sizing: border-box;
-  border: 4px solid #3B7744;
+  border: 4px solid #3b7744;
   border-radius: 10px;
 }

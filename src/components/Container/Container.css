@@ -1,5 +1,5 @@
 .container {
-  background-color: #DC0A2D;
+  background-color: #dc0a2d;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -14,12 +14,9 @@
 
 .main-screen {
   display: flex;
-  justify-content: space-between;
-  width: 800px;
 }
 
 .search-list {
   display: flex;
-  justify-content: space-between;
   width: 500px;
 }
