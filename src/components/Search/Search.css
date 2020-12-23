@@ -1,6 +1,16 @@
 .container-search {
+  display: flex;
+  justify-content: center;
   align-self: flex-end;
-  background-color: blue;
-  height: 50px;
+  height: 30px;
   width: 200px;
+  margin: 10px;
+}
+
+.container-search select {
+  border-radius: 5px;
+  flex-grow: 1;
+  background-color: black;
+  color: #d7c94b;
+  font-family: "Press Start 2P";
 }
